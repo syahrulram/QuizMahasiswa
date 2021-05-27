@@ -59,5 +59,11 @@ namespace QuizMahasiswa
             txtID.Text = dt.Rows[0][0].ToString();
             LoadData();
         }
+
+        private void btnLaporan_Click(object sender, EventArgs e)
+        {
+            ReportBarang028 a = new ReportBarang028();
+            a.Show();
+        }
     }
 }

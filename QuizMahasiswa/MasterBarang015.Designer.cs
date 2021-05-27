@@ -41,6 +41,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtStok = new System.Windows.Forms.TextBox();
             this.txtSupplier = new System.Windows.Forms.TextBox();
+            this.btnLaporan = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dt)).BeginInit();
             this.SuspendLayout();
             // 
@@ -56,7 +57,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(166, 270);
+            this.btnSave.Location = new System.Drawing.Point(89, 270);
             this.btnSave.Margin = new System.Windows.Forms.Padding(2);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(118, 19);
@@ -165,11 +166,22 @@
             this.txtSupplier.Size = new System.Drawing.Size(153, 20);
             this.txtSupplier.TabIndex = 52;
             // 
+            // btnLaporan
+            // 
+            this.btnLaporan.Location = new System.Drawing.Point(242, 270);
+            this.btnLaporan.Name = "btnLaporan";
+            this.btnLaporan.Size = new System.Drawing.Size(120, 23);
+            this.btnLaporan.TabIndex = 61;
+            this.btnLaporan.Text = "Laporan";
+            this.btnLaporan.UseVisualStyleBackColor = true;
+            this.btnLaporan.Click += new System.EventHandler(this.btnLaporan_Click);
+            // 
             // MasterBarang015
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(451, 450);
+            this.Controls.Add(this.btnLaporan);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dt);
             this.Controls.Add(this.btnSave);
@@ -207,6 +219,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtStok;
         private System.Windows.Forms.TextBox txtSupplier;
+        private System.Windows.Forms.Button btnLaporan;
     }
 }
 
